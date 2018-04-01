@@ -13,8 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+apply plugin: 'org.springframework.boot'
+
+jar {
+    enabled = true
+}
+
+bootJar {
+    classifier = 'executable'
+}
+
+
 dependencies {
-    compile "org.springframework.boot:spring-boot-starter-web"
-    compile "org.springframework.boot:spring-boot-starter-logging"
-    testCompile "org.springframework.boot:spring-boot-starter-test"
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-logging'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
