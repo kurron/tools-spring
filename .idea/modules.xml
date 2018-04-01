@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools-java.iml" filepath="$PROJECT_DIR$/.idea/modules/tools-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tools-java_main.iml" group="tools-java" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tools-java_test.iml" group="tools-java" />
+      <module fileurl="file://$PROJECT_DIR$/tools-spring.iml" filepath="$PROJECT_DIR$/tools-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tools-spring_main.iml" group="tools-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools-spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tools-spring_test.iml" group="tools-spring" />
     </modules>
   </component>
 </project>

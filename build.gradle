@@ -45,6 +45,7 @@ apply from: "$rootDir/gradle/maven-publish.gradle"
 apply from: "$rootDir/gradle/bintray.gradle"
 
 dependencies {
+    compile "org.kurron:tools-java:${toolsJavaVersion}"
     testRuntime "net.logstash.logback:logstash-logback-encoder:${logstashLogbackVersion}"
 }
 
